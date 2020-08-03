@@ -160,7 +160,7 @@ cat "${pylintrcpath}"
 echo
 
 # Fixing addon code to workaround some quirks
-#workaround_quirks ${version}
+workaround_quirks ${version}
 echo
 
 # Expect failure before fake-bge-module is installed, otherwise following test has no meaning
